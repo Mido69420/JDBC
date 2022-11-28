@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="743.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller">
+   <children>
+      <ListView fx:id="actorsListView" layoutX="7.0" layoutY="100.0" onMouseClicked="#actorsLVClicked" prefHeight="297.0" prefWidth="250.0" AnchorPane.bottomAnchor="3.0" AnchorPane.leftAnchor="7.0" AnchorPane.topAnchor="100.0" />
+      <Label layoutX="115.0" layoutY="75.0" text="Actors" AnchorPane.leftAnchor="115.0" AnchorPane.topAnchor="75.0" />
+      <Label layoutX="389.0" layoutY="75.0" text="movies participated" AnchorPane.rightAnchor="250.0" AnchorPane.topAnchor="75.0" />
+      <ListView fx:id="moviesListView" layoutX="336.0" layoutY="100.0" onMouseClicked="#moviesLVClicked" prefHeight="297.0" prefWidth="210.0" AnchorPane.bottomAnchor="3.0" AnchorPane.leftAnchor="336.0" AnchorPane.rightAnchor="197.0" AnchorPane.topAnchor="100.0" />
+      <Label layoutX="561.0" layoutY="100.0" text="Anzahl d. Filme" />
+      <Label fx:id="film_count" layoutX="695.0" layoutY="100.0" />
+      <Label layoutX="561.0" layoutY="117.0" text="Gesamtlänge der Filme" />
+      <Label layoutX="563.0" layoutY="134.0" text="Anzahl d. Schauspieler" />
+      <Label fx:id="films_len" layoutX="695.0" layoutY="117.0" text="x" />
+      <Label fx:id="countSchauspieler" layoutX="695.0" layoutY="134.0" />
+   </children>
+</AnchorPane>
